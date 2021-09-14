@@ -122,6 +122,13 @@ position: absolute;
     background-position: center;
     background-size: cover;
 }
+.front6 {
+    background-image: url(./img/Ainura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .link-list {
     list-style: none;
