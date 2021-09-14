@@ -103,14 +103,14 @@ position: absolute;
 }
 /* --------------------- */
 .front5 {
-    background-image: url(img/Diana.png);
+    background-image: url(./img/Diana.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .front10 {
-    background-image: url(img/asel.jpg);
+    background-image: url(./img/asel.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
