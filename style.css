@@ -102,9 +102,28 @@ position: absolute;
     background-color: rgb(126, 104, 247);
 }
 /* --------------------- */
+.front5 {
+    background-image: url(./img/Diana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .front10 {
-    background-image: url(img/asel.jpg);
+    background-image: url(./img/asel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.front3 {
+    background-image: url(img/Shahzada.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.front6 {
+    background-image: url(./img/Ainura.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
