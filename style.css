@@ -102,6 +102,12 @@ position: absolute;
     background-color: rgb(126, 104, 247);
 }
 /* --------------------- */
+.front5 {
+    background-image: url(img/Diana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .front10 {
     background-image: url(img/asel.jpg);
