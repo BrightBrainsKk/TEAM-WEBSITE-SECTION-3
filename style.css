@@ -116,6 +116,12 @@ position: absolute;
     background-size: cover;
 }
 
+.front3 {
+    background-image: url(img/Shahzada.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .link-list {
     list-style: none;
