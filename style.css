@@ -1,51 +1,57 @@
 h1 {
     color: red;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
 
 #header {
-    
     background-color: rgb(231, 228, 228);
 }
+
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
+
 .container {
     width: 1140px;
     margin: 0 auto;
-
 }
+
 .logo {
     max-width: 250px;
     padding: 10px;
 }
+
 .team-name {
     font-size: 36px;
     font-family: Roboto, sans-serif;
     font-weight: 600;
 }
+
 .bright {
     color: rgb(38, 38, 112);
 }
+
 .brains {
     color: rgb(226, 91, 13);
 }
+
 .nav-list {
     display: flex;
     font-size: 2em;
     list-style: none;
-    
 }
+
 .header-link {
     color: rgb(0, 0, 0);
 }
@@ -54,6 +60,7 @@ a {
     margin: 10px;
     transition: .3s;
 }
+
 .header-list-item:hover {
     transform: scale(1.5);
 }
@@ -62,18 +69,21 @@ a {
     padding: 10px;
     margin-right: 20px;
 }
+
 .team-members {
     display: flex;
     flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .wrap {
     position: absolute;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     position: relative;
     perspective: 1000px;
@@ -81,11 +91,12 @@ a {
     height: 200px;
     margin: 10px;
 }
-.front, .back  {
-position: absolute; 
+
+.front,
+.back {
+    position: absolute;
     width: 100%;
     height: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,15 +104,24 @@ position: absolute;
     backface-visibility: hidden;
     border-radius: 10px;
 }
-.card:hover .front {transform: rotateY(180deg);
-                     cursor: pointer;}
-.card:hover .back {transform: rotateY(360deg);
-                }
+
+.card:hover .front {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+
 .back {
     transform: rotateY(180deg);
     background-color: rgb(126, 104, 247);
 }
+
+
 /* --------------------- */
+
 .front5 {
     background-image: url(./img/Diana.png);
     background-repeat: no-repeat;
@@ -122,20 +142,30 @@ position: absolute;
     background-position: center;
     background-size: cover;
 }
+
 .front6 {
     background-image: url(./img/Ainura.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .front7 {
     background-image: url(img/Chynara.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .front4 {
     background-image: url(img/Nura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.front8 {
+    background-image: url(img/Aiperi.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -144,18 +174,21 @@ position: absolute;
 .link-list {
     list-style: none;
     font-size: 2em;
-    
 }
+
 .bio-link {
     text-decoration: none;
     color: black;
 }
+
 .list-item {
     transition: .3s;
 }
+
 .list-item:hover {
     transform: scale(1.5);
 }
+
 .footer {
     width: 100%;
     min-height: 320px;
@@ -163,29 +196,27 @@ position: absolute;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
 .footer__link {
     color: black;
 }
-
 
 .footer__in {
     display: flex;
     justify-content: space-between;
     padding: 80px 0;
-    
 }
 
 .footer__logo {
     margin-right: 60px;
 }
 
-
 .footer__block {
     display: flex;
-    
     flex-direction: column;
 }
-.footer__block + .footer__block {
+
+.footer__block+.footer__block {
     margin-right: 60px;
 }
 
@@ -194,9 +225,7 @@ position: absolute;
     font-size: 14px;
     line-height: 21px;
     color: #000000;
-    
 }
-
 
 .footer__block h3 {
     font-size: 18px;
@@ -204,13 +233,13 @@ position: absolute;
     margin-bottom: 22px;
 }
 
-.footer a  {
+.footer a {
     margin-bottom: 11px;
 }
 
 .media__block {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2);
 }
 
@@ -222,5 +251,5 @@ position: absolute;
 }
 
 .media:hover {
-    transform: scale(1.5);    
+    transform: scale(1.5);
 }
